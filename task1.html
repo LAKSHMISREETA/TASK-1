@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="task1.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+ 
+  <header>
+    <div class="logo">LAKSHMISREE T A<span> PORTFOLIO</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internship">Internship</a></li>
+      </ul>
+      <div class="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Crafting Modern Web Experiences</h1>
+      <p>I’m a Web Developer specializing in responsive, user-friendly websites.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a dedicated Web Developer passionate about building digital solutions that blend
+      creativity with functionality. With experience in both front-end and back-end development, 
+      I focus on delivering clean, responsive, and scalable websites.
+    </p>
+    <p>
+      My skillset spans across HTML, CSS, JavaScript, React, PHP, and MySQL, 
+      enabling me to create full-stack applications. I have also worked on projects ranging from 
+      local business promotions to platform-based solutions that tackle real-world challenges.  
+    </p>
+    <p>
+      Beyond coding, I enjoy problem-solving, UI/UX optimization, and helping brands 
+      establish their online presence. My goal is to design user-centric platforms 
+      that make a measurable impact.
+    </p>
+
+    <div class="skills">
+      <span><i class="fa-brands fa-html5"></i> HTML</span>
+      <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+      <span><i class="fa-brands fa-js"></i> JavaScript</span>
+      <span><i class="fa-brands fa-react"></i> React</span>
+      <span><i class="fa-brands fa-php"></i> PHP</span>
+      <span><i class="fa-solid fa-database"></i> MySQL</span>
+    </div>
+  </section>
+
+  
+  <section class="projects" id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      
+      
+      <div class="project-card">
+        <img src="https://i.pinimg.com/474x/6a/0c/20/6a0c20fc18ab7bac46ed3dd330c869ff.jpg" alt="Local Business Website">
+        <h3>Local Business Promo Website</h3>
+        <p>
+          A modern, responsive promotional site designed for a bakery business. 
+          It highlights products with engaging visuals, interactive elements, 
+          and a clean layout to attract and retain customers.
+        </p>
+      </div>
+
+      
+      <div class="project-card">
+        <img src="https://www.shutterstock.com/image-photo/zero-waste-net-concept-ecofriendly-260nw-2407798303.jpg" alt="Waste Reporting Platform">
+        <h3>Waste Reporting Platform</h3>
+        <p>
+          A smart reporting system enabling residents to log missed garbage collections.  
+          Real-time notifications are sent to waste management teams for quick action, 
+          promoting cleaner streets and efficient urban management.
+        </p>
+      </div>
+
+      
+      <div class="project-card">
+        <img src="https://www.shutterstock.com/image-vector/online-shopping-concept-perfect-landing-260nw-1654537690.jpg" alt="E-Commerce Store">
+        <h3>E-Commerce Store</h3>
+        <p>
+          A feature-rich online shopping platform with product listings, 
+          shopping cart, user authentication, and an admin dashboard for 
+          order and inventory management.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section class="internship" id="internship">
+    <h2>Internship Experience</h2>
+    <p>
+      I have completed an internship at Gurumantra, where I worked on developing a 
+      website to optimize internal workflows. I contributed to both front-end 
+      design and back-end functionality, gaining hands-on experience with HTML, CSS, React, PHP, and MySQL.
+    </p>
+    <p>
+      During the internship, I enhanced my skills in collaborative coding
+      and problem-solving, which has prepared me for real-world web development projects.
+    </p>
+  </section>
+
+
+  <footer>
+    <p>© Lakshmisree | Web Developer Portfolio</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/lakshmisree2905" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
+      <a href="https://github.com/LAKSHMISREETA" target="_blank"><i class="fa-brands fa-github"></i></a> 
+      <a href="mailto:lakshmisree2905@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
